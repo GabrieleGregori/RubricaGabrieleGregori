@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(202, 240, 248);
+    color: rgb(0, 180, 216);
+}
+
+
+:root{
+    --turchese: rgb(202, 240, 248);
+    --azzurro: rgb(0, 180, 216);
+    --blu: rgb(0, 119, 182);
+    --notte: rgb(3, 4, 94);
+}
+
+h1,h3{
+    color: var(--notte)
+}
+
+.btn-custom{
+    height: 50px;
+    width: 150px;
+    background: var(--azzurro);
+    color: var(--notte);
+    border: 1px solid var(--notte);
+}
+
+.btn-custom:hover{
+    background: var(--blu);
+    color: var(--turchese);
+    border: 1px solid var(--notte);
+}
+
+.card-custom{
+    height: 40px;
+    width: 500px;
+    background: var(--azzurro);
+    color: var(--notte);
+    border-radius: 10px;
+    box-shadow: 12px 12px 16px var(--blu);
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+i{
+    cursor: pointer;
+}
